@@ -1,0 +1,29 @@
+name: flutter_socket_io_chat
+description: A new Flutter project.
+
+version: 2.3.0
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_socket_io: ^0.6.0
+  provider: ^4.0.4
+  intl: ^0.16.1
+  font_awesome_flutter: ^8.5.0
+  lottie: ^0.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
